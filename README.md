@@ -1,4 +1,4 @@
-# Virtual Bank using MERN Stack
+# Golden Ore Bank Virtual Bank
 
 My project is a virtual bank application designed to provide users with a comprehensive set of banking features. The application includes functionalities for creating accounts, logging in, making deposits, withdrawing funds, and paying bills.
 
