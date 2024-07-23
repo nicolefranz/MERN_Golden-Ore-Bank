@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Optional npm cache directory
+.npm
+
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Dependency directories
+client/node_modules/
+server/node_modules/
+
+# React build directory
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Misc
+.sass-cache/
+.npm/
+.yarn/
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# macOS
+.DS_Store
+
+# Optional npm cache directory
+.npm/

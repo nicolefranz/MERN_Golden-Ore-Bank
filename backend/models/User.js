@@ -1,0 +1,29 @@
+const mongoose = require('mongoose');
+
+// Define the user schema
+const userSchema = new mongoose.Schema({
+    firstname: {
+        type: String,
+        required: true
+    },
+    lastname: {
+        type: String,
+        required: true
+    },
+    email: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    password: {
+        type: String,
+        required: true
+    },
+    balance: {
+        type: Number,
+        default: 0, // Set default balance to 0
+    },
+});
+
+// Export the User model
+module.exports = mongoose.model('User', userSchema);

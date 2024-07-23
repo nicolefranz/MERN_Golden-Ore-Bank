@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# Build output
+# build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# MacOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Windows
+Thumbs.db
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Optional: yarn.lock (if you use yarn)
+yarn.lock
+
+# Optional: npm-debug.log (if you use npm and want to ignore debug logs)
+npm-debug.log*
+
+# Optional: coverage folder (if using a testing framework that generates coverage reports)
+coverage/
